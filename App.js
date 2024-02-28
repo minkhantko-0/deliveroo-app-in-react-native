@@ -6,7 +6,7 @@ import BasketScreen from "./screens/BasketScreen";
 import PreparingOrderScreen from "./screens/PreparingOrderScreen";
 import { Provider } from "react-redux";
 import { store } from "./store";
-import DeilveryScreen from "./screens/DeilveryScreen";
+import DeliveryScreen from "./screens/DeilveryScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -32,7 +32,7 @@ export default function App() {
             />
             <Stack.Screen
               name="Delivery"
-              component={DeilveryScreen}
+              component={DeliveryScreen}
               options={{ presentation: "fullScreenModal" }}
             />
           </Stack.Group>
